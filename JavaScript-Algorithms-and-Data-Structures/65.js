@@ -1,11 +1,15 @@
-//Assignment with a Returned Value
+//Comparison with the Greater Than Operator
 
-// Setup
-let processed = 0;
+function testGreaterThan(val) {
+  if (val > 100) {  // Change this line
+    return "Over 100";
+  }
 
-function processArg(num) {
-  return (num + 3) / 5;
+  if (val > 10) {  // Change this line
+    return "Over 10";
+  }
+
+  return "10 or Under";
 }
 
-// Only change code below this line
-processed = processArg(7);
+testGreaterThan(10);

@@ -1,11 +1,14 @@
-//Comparison with the Equality Operator
+//Comparisons with the Logical And Operator
 
-// Setup
-function testEqual(val) {
-  if (val == 12) { // Change this line
-    return "Equal";
+function testLogicalAnd(val) {
+  // Only change code below this line
+
+  if (val <= 50 && val >= 25) {
+      return "Yes";
   }
-  return "Not Equal";
+
+  // Only change code above this line
+  return "No";
 }
 
-testEqual(10);
+testLogicalAnd(10);

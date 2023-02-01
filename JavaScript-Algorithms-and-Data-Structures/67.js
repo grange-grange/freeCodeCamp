@@ -1,9 +1,15 @@
-//Understanding Boolean Values
+//Comparison with the Less Than Operator
 
-function welcomeToBooleans() {
-  // Only change code below this line
+function testLessThan(val) {
+  if (val < 25) {  // Change this line
+    return "Under 25";
+  }
 
-  return true; // Change this line
+  if (val < 55) {  // Change this line
+    return "Under 55";
+  }
 
-  // Only change code above this line
+  return "55 or Over";
 }
+
+testLessThan(10);

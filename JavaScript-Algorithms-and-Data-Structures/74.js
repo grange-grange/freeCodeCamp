@@ -1,15 +1,22 @@
-//Comparison with the Greater Than Operator
+//Chaining If Else Statements
 
-function testGreaterThan(val) {
-  if (val > 100) {  // Change this line
-    return "Over 100";
+function testSize(num) {
+  // Only change code below this line
+  if (num < 5) {
+    return "Tiny";
+  } else if (num < 10) {
+    return "Small";
+  } else if (num < 15) {
+    return "Medium";
+  } else if (num < 20) {
+    return "Large";
+  } else {
+    return "Huge";
   }
 
-  if (val > 10) {  // Change this line
-    return "Over 10";
-  }
 
-  return "10 or Under";
+  return "Change Me";
+  // Only change code above this line
 }
 
-testGreaterThan(10);
+testSize(7);

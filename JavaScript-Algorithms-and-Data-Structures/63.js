@@ -1,13 +1,11 @@
-//Global vs. Local Scope in Functions
+//Comparison with the Inequality Operator
 
 // Setup
-const outerWear = "T-Shirt";
-
-function myOutfit() {
-  // Only change code below this line
-  let outerWear = "sweater";
-  // Only change code above this line
-  return outerWear;
+function testNotEqual(val) {
+  if (val != 99) { // Change this line
+    return "Not Equal";
+  }
+  return "Equal";
 }
 
-myOutfit();
+testNotEqual(10);

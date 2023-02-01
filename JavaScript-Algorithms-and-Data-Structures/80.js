@@ -1,17 +1,9 @@
-//Introducing Else Statements
+//Returning Boolean Values from Functions
 
-function testElse(val) {
-  let result = "";
+function isLess(a, b) {
   // Only change code below this line
-
-  if (val > 5) {
-    result = "Bigger than 5";
-  } else {
-    result = "5 or Smaller";
-  }
-
+  return a < b;
   // Only change code above this line
-  return result;
 }
 
-testElse(4);
+isLess(10, 15);

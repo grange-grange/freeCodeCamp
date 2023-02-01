@@ -1,25 +1,12 @@
-//Selecting from Many Options with Switch Statements
+//Accessing Object Properties with Bracket Notation
 
-function caseInSwitch(val) {
-    let answer = "";
-    // Only change code below this line
-    switch (val) {
-      case 1:
-        answer = "alpha";
-        break;
-      case 2:
-        answer = "beta";
-        break;
-      case 3:
-        answer = "gamma";
-        break;
-      case 4:
-        answer = "delta";      
-    }
-  
-  
-    // Only change code above this line
-    return answer;
-  }
-  
-  caseInSwitch(1);
+// Setup
+const testObj = {
+  "an entree": "hamburger",
+  "my side": "veggies",
+  "the drink": "water"
+};
+
+// Only change code below this line
+const entreeValue = testObj["an entree"];   // Change this line
+const drinkValue = testObj["the drink"];    // Change this line

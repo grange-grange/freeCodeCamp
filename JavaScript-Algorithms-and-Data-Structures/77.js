@@ -1,15 +1,25 @@
-//Comparison with the Less Than Or Equal To Operator
+//Adding a Default Option in Switch Statements
 
-function testLessOrEqual(val) {
-  if (val <= 12) {  // Change this line
-    return "Smaller Than or Equal to 12";
+function switchOfStuff(val) {
+    let answer = "";
+    // Only change code below this line
+    switch (val) {
+      case "a":
+        answer = "apple";
+        break;
+      case "b":
+        answer = "bird";
+        break;
+      case "c":
+        answer = "cat";
+        break;
+      default:
+        answer = "stuff";
+    }
+  
+  
+    // Only change code above this line
+    return answer;
   }
-
-  if (val <= 24) {  // Change this line
-    return "Smaller Than or Equal to 24";
-  }
-
-  return "More Than 24";
-}
-
-testLessOrEqual(10);
+  
+  switchOfStuff(1);

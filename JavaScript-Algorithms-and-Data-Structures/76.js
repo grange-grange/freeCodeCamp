@@ -1,15 +1,25 @@
-//Comparison with the Less Than Operator
+//Selecting from Many Options with Switch Statements
 
-function testLessThan(val) {
-  if (val < 25) {  // Change this line
-    return "Under 25";
+function caseInSwitch(val) {
+    let answer = "";
+    // Only change code below this line
+    switch (val) {
+      case 1:
+        answer = "alpha";
+        break;
+      case 2:
+        answer = "beta";
+        break;
+      case 3:
+        answer = "gamma";
+        break;
+      case 4:
+        answer = "delta";      
+    }
+  
+  
+    // Only change code above this line
+    return answer;
   }
-
-  if (val < 55) {  // Change this line
-    return "Under 55";
-  }
-
-  return "55 or Over";
-}
-
-testLessThan(10);
+  
+  caseInSwitch(1);

@@ -1,11 +1,13 @@
-//Comparison with the Inequality Operator
+//Introducing Else If Statements
 
-// Setup
-function testNotEqual(val) {
-  if (val != 99) { // Change this line
-    return "Not Equal";
+function testElseIf(val) {
+  if (val > 10) {
+    return "Greater than 10";
+  } else if (val < 5) {
+    return "Smaller than 5";
+  } else {
+    return "Between 5 and 10";
   }
-  return "Equal";
 }
 
-testNotEqual(10);
+testElseIf(7);

@@ -1,11 +1,13 @@
-//Comparison with the Strict Inequality Operator
+//Logical Order in If Else Statements
 
-// Setup
-function testStrictNotEqual(val) {
-  if (val !== 17) { // Change this line
-    return "Not Equal";
+function orderMyLogic(val) {
+  if (val < 5) {
+    return "Less than 5";
+  } else if (val < 10) {
+    return "Less than 10";
+  } else {
+    return "Greater than or equal to 10";
   }
-  return "Equal";
 }
 
-testStrictNotEqual(10);
+orderMyLogic(7);

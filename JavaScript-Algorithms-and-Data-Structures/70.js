@@ -1,11 +1,14 @@
-//Comparison with the Strict Equality Operator
+//Comparisons with the Logical Or Operator
 
-// Setup
-function testStrict(val) {
-  if (val === 7) { // Change this line
-    return "Equal";
+function testLogicalOr(val) {
+  // Only change code below this line
+
+  if (val < 10 || val > 20) {
+    return "Outside";
   }
-  return "Not Equal";
+  
+  // Only change code above this line
+  return "Inside";
 }
 
-testStrict(10);
+testLogicalOr(15);

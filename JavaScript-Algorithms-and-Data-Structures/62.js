@@ -1,12 +1,11 @@
-//Local Scope and Functions
+//Practice comparing different values
 
-function myLocalScope() {
-    // Only change code below this line
-    let myVar = 5;
-    console.log('inside myLocalScope', myVar);
+// Setup
+function compareEquality(a, b) {
+  if (a === b) { // Change this line
+    return "Equal";
+  }
+  return "Not Equal";
 }
-myLocalScope();
-  
-// Run and check the console
-// myVar is not defined outside of myLocalScope
-console.log('outside myLocalScope', myVar);
+
+compareEquality(10, "10");

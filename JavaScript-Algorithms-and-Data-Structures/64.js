@@ -1,18 +1,11 @@
-//Understanding Undefined Value returned from a Function
+//Comparison with the Strict Inequality Operator
 
 // Setup
-let sum = 0;
-
-function addThree() {
-  sum = sum + 3;
+function testStrictNotEqual(val) {
+  if (val !== 17) { // Change this line
+    return "Not Equal";
+  }
+  return "Equal";
 }
 
-// Only change code below this line
-function addFive() {
-  sum += 5;
-}
-
-// Only change code above this line
-
-addThree();
-addFive();
+testStrictNotEqual(10);
