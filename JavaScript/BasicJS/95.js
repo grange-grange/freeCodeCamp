@@ -24,7 +24,7 @@ const recordCollection = {
 // Only change code below this line
 function updateRecords(records, id, prop, value) {
   if (prop === "tracks") {
-    if (records[id].hasOwnProperty(prop) == false) {
+    if (!records[id].hasOwnProperty(prop)) {
       records[id][prop] = [];      
     }    
     
