@@ -35,10 +35,9 @@ const contacts = [
         if (!contacts[i].hasOwnProperty(prop)) {
           return "No such property";
           break;
-        } else {
-          return contacts[i][prop];
-          break;
-        }
+        } 
+        return contacts[i][prop];
+        break;
       } 
     }
   
